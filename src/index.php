@@ -326,7 +326,7 @@ $UK = array(
 	"LHC" => array("code" => "LHC", "URL" => "http://www.apple.com/uk/retail/highcross", location => "Leicester", store => " Highcross"),
 	"LIV" => array("code" => "LIV", "URL" => "http://www.apple.com/uk/retail/liverpoolone", location => "Liverpool", store => " Liverpool ONE"),
 	"LBR" => array("code" => "LBR", "URL" => "http://www.apple.com/uk/retail/brentcross", location => "London", store => " Brent Cross"),
-	"LCG" => array("code" => "LBR", "URL" => "http://www.apple.com/uk/retail/coventgarden", location => "London", store => "Covent Garden"),
+	"LCG" => array("code" => "LCG", "URL" => "http://www.apple.com/uk/retail/coventgarden", location => "London", store => "Covent Garden"),
 	"LRS" => array("code" => "LRS", "URL" => "http://www.apple.com/uk/retail/regentstreet", location => "London", store => " Regent Street"),
 	"LWC" => array("code" => "LWC", "URL" => "http://www.apple.com/uk/retail/whitecity", location => "London", store => " White City"),
 	"MAR" => array("code" => "MAR", "URL" => "http://www.apple.com/uk/retail/manchesterarndale", location => "Manchester", store => " Arndale Centre"),

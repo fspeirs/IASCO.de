@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^([^/\.]+)/?$ /?store=$1 [L,R,NC]
+RewriteRule ^([^/\.]+)/?$ /?store=$1 [L,NC]

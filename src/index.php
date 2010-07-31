@@ -480,6 +480,8 @@ $sections = array(
 </head>
 <body>
 
+<a href="http://github.com/fspeirs/IASCO.de"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
 <div id="content">
 <h1><a name="top">International Apple Store Codes</a></h1>
 <h3>A <a href="http://connectedflow.com">Connected Flow</a> Enterprise</h3>
@@ -489,12 +491,15 @@ $sections = array(
 
 <p>Inspired by the IATA standard for airports, IASCO provides a short three-letter code for every Apple Store in the world, and a short URL redirection service to link to that store.</p>
 
-<h3>Example</h3>
-<p>Take the Apple Store, Glasgow Buchanan Street. Any way you describe this store, it's still long-winded. The Apple URL is http://www.apple.com/uk/retail/buchananstreet which, at 45 characters, barely leaves you enough space to tweet about the number of white iPhone 4s they don't have.</p>
+<h3>Why?</h3>
+<p>Take the Apple Store, Glasgow Buchanan Street. Any way you describe this store, it's still long-winded. The Apple URL is 45 characters, which barely leaves you enough space to tweet about the number of white iPhone 4s they don't have.  Enter the IASCO. We've given Buchanan Street the code GBU and the short URL http://iasco.de/GBU - much neater.</p>
 
-<p>Enter the IASCO code. We've given Buchanan Street the code GBU and the short URL http://iasco.de/GBU - much neater.</p>
+<h3>A Note on Style</h3>
 
-<p>Apple does have an internal ID scheme for stores but it's strictly numeric and not at all memorable. Did you know that R135 is Glasgow Buchanan Street?</p>
+<p>We've tried to avoid clashing with IATA codes for well-known airports, but there may be conflicts. To avoid ambiguity, the recommended way to refer to an IASCO code is to prefix it with the Option-Shift-K Apple symbol (e.g. GBU) or, if you're on an iOS device and can't type that symbol, a lowercase a will do (e.g aGBU).</p>
+
+<h3>Updates</h3>
+<p>We'll try and keep this up to date. If you see something missing, you can <a href="http://github.com/fspeirs/IASCO.de">fork the Github repo</a> and send a pull request.</p>
 
 <h3>The Codes</h3>
 
@@ -514,7 +519,12 @@ $sections = array(
 			$url = $storearray['URL'];
 			$code = $storearray['code'];
 			$shorturl = "http://iasco.de/$code";
-			echo "<span class=\"location\"><a href=\"$url\">$location, $store</a></span><span class=\"shortcode\"><a href=\"$shorturl\">$code</a></span>";
+			echo "<span class=\"location\"><a href=\"$url\">$location";
+			if($store)
+			{
+				echo ", $store";
+			}
+			echo "</a></span><span class=\"shortcode\"><a href=\"$shorturl\">$code</a></span>";
 			echo "</div>\r";
 		}
 	}

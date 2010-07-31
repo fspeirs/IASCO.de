@@ -1,3 +1,3 @@
 ## IASCO.de ##
 
-Coming soon.
+International Apple Store Codes.  If you have any updates, feel free to fork the repo and send me a pull request. Check that you haven't conflicted with any other code and try to avoid using the codes of the major airports.

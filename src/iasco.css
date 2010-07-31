@@ -1,0 +1,56 @@
+body {
+	background-color: #f3f3f3;
+	font: 14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin: 0;
+}
+
+#content {
+	width: 600px;
+	margin: auto;
+}
+
+p {
+	font-size: 12px;
+}
+
+.sectionheader {
+	background-color: #dcdefb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.location {
+	float: left;
+	background-color: transparent;
+	width: 75%;
+	padding-left: 50px;
+}
+
+.storecodesection {
+	background-color: transparent;
+}
+
+.shortcode {
+	background-color: transparent;
+}
+
+.storerow {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #d6d6d6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.topjump {
+	float: right;
+	padding-right: 20px;
+}

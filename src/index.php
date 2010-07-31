@@ -326,6 +326,7 @@ $UK = array(
 	"LHC" => array("code" => "LHC", "URL" => "http://www.apple.com/uk/retail/highcross", location => "Leicester", store => " Highcross"),
 	"LIV" => array("code" => "LIV", "URL" => "http://www.apple.com/uk/retail/liverpoolone", location => "Liverpool", store => " Liverpool ONE"),
 	"LBR" => array("code" => "LBR", "URL" => "http://www.apple.com/uk/retail/brentcross", location => "London", store => " Brent Cross"),
+	"LCG" => array("code" => "LBR", "URL" => "http://www.apple.com/uk/retail/coventgarden", location => "London", store => "Covent Garden"),
 	"LRS" => array("code" => "LRS", "URL" => "http://www.apple.com/uk/retail/regentstreet", location => "London", store => " Regent Street"),
 	"LWC" => array("code" => "LWC", "URL" => "http://www.apple.com/uk/retail/whitecity", location => "London", store => " White City"),
 	"MAR" => array("code" => "MAR", "URL" => "http://www.apple.com/uk/retail/manchesterarndale", location => "Manchester", store => " Arndale Centre"),
@@ -352,7 +353,7 @@ $CANADA = array(
 	"EWE" => array("code" => "EWE", "URL" => "http://www.apple.com/ca/retail/westedmonton", location => "Edmonton", store => " West Edmonton"),
 	"MSO" => array("code" => "MSO", "URL" => "http://www.apple.com/ca/retail/squareone", location => "Mississauga", store => " Square One"),
 	"MSC" => array("code" => "MSC", "URL" => "http://www.apple.com/ca/retail/saintecatherine", location => "Montréal", store => " Sainte-Catherine"),
-	"OTR" => array("code" => "OTR", "URL" => "http://www.apple.com/ca/retail/rideau", location => "Ottowa", store => " Rideau"),
+	"OTR" => array("code" => "OTR", "URL" => "http://www.apple.com/ca/retail/rideau", location => "Ottawa", store => " Rideau"),
 	"FPC" => array("code" => "FPC", "URL" => "http://www.apple.com/ca/retail/fairviewpointeclaire", location => "Pointe Claire", store => " Fairview Pointe Claire"),
 	"QCL" => array("code" => "QCL", "URL" => "http://www.apple.com/ca/retail/carrefourlaval", location => "Quebec", store => " Carrefour Laval"),
 	"TEC" => array("code" => "TEC", "URL" => "http://www.apple.com/ca/retail/eatoncentre", location => "Toronto", store => " Eaton Centre"),
@@ -503,7 +504,7 @@ $sections = array(
 
 <h3>The Codes</h3>
 
-<p><strong>USA</strong>: <a href="#Alabama">AL</a> - <a href="#Arizona">AZ</a> - <a href="#California">CA</a> - <a href="#Colorado">CO</a> - <a href="#Connecticut">CT</a> - <a href="#Delaware">DE</a> - <a href="#District%20of%20Columbia">DC</a> - <a href="#Florida">FL</a> - <a href="#Georgia">GA</a> - <a href="#Hawaii">HI</a> - <a href="#Illinois">IL</a> - <a href="#Iowa">IA</a> - <a href="#Kansas">KA</a> - <a href="#Kentucky">KT</a> - <a href="#Maine">ME</a> - <a href="#Maryland">MD</a> - <a href="#Massachussets">MA</a> - <a href="#Michigan">MI</a> - <a href="#Minnesota">MN</a> - <a href="#Missouri">MS</a> - <a href="#Montana">MO</a> - <a href="#Nebraska">NE</a> - <a href="#Nevada">NV</a> - <a href="#New%20Hampshire">NH</a> - <a href="#New%20Jersey">NJ</a> - <a href="#New%20York">NY</a> - <a href="#North%20Carolina">NC</a> - <a href="#Ohio">OH</a> - <a href="#Oklahoma">OK</a> - <a href="#Oregon">OR</a> - <a href="#Pennsylvania">PA</a> - <a href="#Rhode%20Island">RI</a> - <a href="#South%20Carolina">SC</a> - <a href="#Tennessee">TN</a> - <a href="#Texas">TX</a> - <a href="#Utah">UT</a> - <a href="#Virginia">VA</a> - <a href="#Washington">WA</a> - <a href="#Wisconsin">WI</a></P>
+<p><strong>USA</strong>: <a href="#Alabama">AL</a> - <a href="#Arizona">AZ</a> - <a href="#California">CA</a> - <a href="#Colorado">CO</a> - <a href="#Connecticut">CT</a> - <a href="#Delaware">DE</a> - <a href="#District%20of%20Columbia">DC</a> - <a href="#Florida">FL</a> - <a href="#Georgia">GA</a> - <a href="#Hawaii">HI</a> - <a href="#Illinois">IL</a> - <a href="#Iowa">IA</a> - <a href="#Kansas">KA</a> - <a href="#Kentucky">KT</a> - <a href="#Maine">ME</a> - <a href="#Maryland">MD</a> - <a href="#Massachussets">MA</a> - <a href="#Michigan">MI</a> - <a href="#Minnesota">MN</a> - <a href="#Missouri">MO</a> - <a href="#Montana">MT</a> - <a href="#Nebraska">NE</a> - <a href="#Nevada">NV</a> - <a href="#New%20Hampshire">NH</a> - <a href="#New%20Jersey">NJ</a> - <a href="#New%20York">NY</a> - <a href="#North%20Carolina">NC</a> - <a href="#Ohio">OH</a> - <a href="#Oklahoma">OK</a> - <a href="#Oregon">OR</a> - <a href="#Pennsylvania">PA</a> - <a href="#Rhode%20Island">RI</a> - <a href="#South%20Carolina">SC</a> - <a href="#Tennessee">TN</a> - <a href="#Texas">TX</a> - <a href="#Utah">UT</a> - <a href="#Virginia">VA</a> - <a href="#Washington">WA</a> - <a href="#Wisconsin">WI</a></P>
 <p><strong>World</strong>: <a href="#UK">UK</a> - <a href="#Japan">JA</a> - <a href="#Canada">CA</a> - <a href="#Italy">IT</a> - <a href="#Australia">AU</a> - <a href="#China">CN</a> - <a href="#Switzerland">CH</a> - <a href="#Germany">DE</a> - <a href="#France">FR</a></p>
 
 <div class="storecodesection">

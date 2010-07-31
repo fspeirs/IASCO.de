@@ -497,7 +497,7 @@ $sections = array(
 
 <h3>A Note on Style</h3>
 
-<p>We've tried to avoid clashing with IATA codes for well-known airports, but there may be conflicts. To avoid ambiguity, the recommended way to refer to an IASCO code is to prefix it with the Option-Shift-K Apple symbol (e.g. GBU) or, if you're on an iOS device and can't type that symbol, a lowercase a will do (e.g aGBU).</p>
+<p>We've tried to avoid clashing with IATA codes for well-known airports, but there may be conflicts. To avoid ambiguity, the recommended way to refer to an IASCO code is to prefix it with the Option-Shift-K Apple symbol (e.g. GBU) or, if you're on an iOS device and can't directly type that symbol, try <a href="http://mrgan.com/gb">Neven Mrgan's GlyphBoard</a> web app.</p>
 
 <h3>Updates</h3>
 <p>We'll try and keep this up to date. If you see something missing, you can <a href="http://github.com/fspeirs/IASCO.de">fork the Github repo</a> and send a pull request.</p>
